@@ -11,7 +11,7 @@ const options = {
 };
 
 request(options, function(err, res, body) {
-    console.log("This short program uses the options object and makes a get request to reddit for some funny json and displays it below...... ");
+    console.log("This uses the options object and makes a GET request to reddit for json and displays it below...... ");
     let json = JSON.parse(body);
     console.log(json);
 });
